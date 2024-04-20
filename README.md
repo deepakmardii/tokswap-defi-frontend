@@ -7,7 +7,7 @@ This project likely requires Node.js and npm (or yarn) to be installed on your s
 1.  Clone the repository:
 
 ```
-git clone git@github.com:deepakmardii/tokswap-defi-frontend.git
+git clone https://github.com/deepakmardii/tokswap-defi-frontend.git
 ```
 
 2.  Navigate to the project directory:
