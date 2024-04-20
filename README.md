@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+This project is a single-page application (SPA) showcasing a Decentralized Finance (DeFi) platform. It utilizes React and uses CSS modules.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Getting Started
 
-## Available Scripts
+This project likely requires Node.js and npm (or yarn) to be installed on your system.
 
-In the project directory, you can run:
+1.  Clone the repository:
 
-### `npm start`
+```
+git clone https://your-repository-url.git
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.  Navigate to the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+cd your-project-name
+```
 
-### `npm test`
+3.  Install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install
+```
 
-### `npm run build`
+(or)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4.  Start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+(or)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+yarn start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will launch the application in your web browser at `http://localhost:3000/` .
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project is structured with the following key components:
 
-## Learn More
+- **App.js:** The main application component.
+- **components/**: This directory contains reusable React components for various sections of the application.
+  - Header.js
+  - HeroSection.js
+  - FeatureOne.js
+  - DailyStats.js
+  - Card.js
+  - SocialMediaPromotion.js
+  - DevSection.js
+  - BlogSection.js
+  - Footer.js
+- **assets/**: This directory stores images and other static assets used in the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- JavaScript (ES6+)
+- CSS Modules
